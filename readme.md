@@ -53,3 +53,8 @@ Setelah diinput, program akan memperbarui nilai atribut pada objek terkait mengg
 <img width="310" height="63" alt="{5843731E-AE80-468C-A128-9270FE3E314D}" src="https://github.com/user-attachments/assets/ef73f73c-2bd0-4620-aa76-9bab04ac220d" />
 
 Menu opsi 4 digunakan untuk menghapus catatan transaksi dari sistem. Sama seperti fitur update, program akan meminta input ID Transaksi (misal: TRX-01). Sistem kemudian akan mencari indeks data tersebut di dalam `ArrayList` dan menghapusnya secara permanen dari memori. Fitur ini dieksekusi apabila masa sewa telah selesai dan unit dikembalikan, atau jika terjadi kesalahan saat penginputan awal.
+
+### 5. Keluar (Exit)
+<img width="678" height="189" alt="image" src="https://github.com/user-attachments/assets/90164173-e283-47c7-977e-2840bdad4ae3" />
+
+Opsi 5 berfungsi untuk mengakhiri jalannya aplikasi. Saat menu ini dipilih, variabel *boolean* pengontrol perulangan `while` utama akan dihentikan. Sistem kemudian menampilkan pesan perpisahan, memori dibersihkan, dan program Java berhenti beroperasi secara aman yang ditandai dengan munculnya status "BUILD SUCCESS" pada console IDE.
