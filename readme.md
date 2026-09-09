@@ -24,4 +24,11 @@ Ketika opsi 1 dipilih, sistem akan memandu pengguna untuk menginputkan detail tr
 * **Data Skateboard:** ID Skateboard, Merk (misal: Element), dan Jenis papan luncur (misal: Street).
 * **Detail Transaksi:** ID Transaksi, durasi peminjaman (dalam hari), dan tarif sewa per hari.
 
-Setelah seluruh input diselesaikan, program akan menginstansiasi objek baru menggunakan *constructor* dari class `TransaksiRental` dan menyimpannya ke dalam struktur data `ArrayList`. Sistem kemudian menampilkan pesan konfirmasi bahwa data berhasil direkam ke dalam memori.
+
+### 2. Tampilkan Data Rental (Read)
+<img width="392" height="186" alt="{549CC3FB-5EEE-4D0C-A6D0-26337A933E46}" src="https://github.com/user-attachments/assets/39eedf64-f838-4346-9491-290d6ee9621b" />
+
+
+Saat opsi 2 dipilih, sistem akan menampilkan seluruh daftar transaksi yang saat ini tersimpan di dalam memori (`ArrayList`). Program menggunakan perulangan *for-each* untuk mengekstrak dan mencetak rangkuman data ke layar. 
+
+Informasi yang ditampilkan meliputi ID Transaksi, identitas kontak penyewa, spesifikasi papan yang disewa, serta durasi peminjaman. Pada tahap ini, sistem juga mengeksekusi *method* kalkulasi untuk menghitung dan menampilkan **Total Bayar** secara otomatis (Lama Sewa × Harga per Hari).
