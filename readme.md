@@ -3,7 +3,8 @@ Sistem Manajemen Rental Skateboard adalah aplikasi berbasis *Command Line Interf
 
 
 ### Antarmuka Menu Utama
-<img width="411" height="168" alt="{5689919A-66F5-44A5-B922-50F40D922C8C}" src="https://github.com/user-attachments/assets/b023b8f2-fe07-49c3-8b79-693543e2ff24" />
+<img width="405" height="160" alt="{6A228598-8E6B-418E-B2DD-E0E192164BDF}" src="https://github.com/user-attachments/assets/8a1cb9f3-8608-4531-a6bf-ebaf67d246b0" />
+
 
 
 
@@ -36,3 +37,11 @@ Ketika opsi 1 dipilih, sistem akan memandu pengguna untuk menginputkan detail tr
 Saat opsi 2 dipilih, sistem akan menampilkan seluruh daftar transaksi yang saat ini tersimpan di dalam memori (`ArrayList`). Program menggunakan perulangan *for-each* untuk mengekstrak dan mencetak rangkuman data ke layar. 
 
 Informasi yang ditampilkan meliputi ID Transaksi, identitas kontak penyewa, spesifikasi papan yang disewa, serta durasi peminjaman. Pada tahap ini, sistem juga mengeksekusi *method* kalkulasi untuk menghitung dan menampilkan **Total Bayar** secara otomatis (Lama Sewa × Harga per Hari).
+
+### 3. Update Lama Sewa (Update)
+<img width="465" height="136" alt="{201ADEEF-3AA7-4502-85C4-182FE8CA753E}" src="https://github.com/user-attachments/assets/16d677fa-0ed8-42a2-98f3-44bd75e87c97" />
+<img width="311" height="161" alt="{57EDE890-B00D-45E2-B61D-8779D4F7A8C0}" src="https://github.com/user-attachments/assets/af9364c7-4b0b-4dc3-aaff-f17cb72dc732" />
+
+Menu opsi 3 berfungsi untuk memodifikasi data transaksi yang sudah berjalan. Pengguna hanya perlu memasukkan ID Transaksi (contoh: TRX-01) sebagai kata kunci pencarian. Jika ID tersebut ditemukan di dalam `ArrayList`, sistem akan meminta input durasi lama sewa yang baru. 
+
+Setelah diinput, program akan memperbarui nilai atribut pada objek terkait menggunakan *method setter*. Perubahan durasi ini akan secara otomatis memengaruhi kalkulasi Total Bayar saat transaksi dilihat kembali melalui menu Read.
