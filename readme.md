@@ -28,19 +28,16 @@ Digunakan untuk menghentikan program dan keluar dari menu utama.
 Ketika pengguna memilih menu Tambah Data Rental, program akan meminta beberapa data melalui console. Data yang perlu dimasukkan terbagi menjadi tiga bagian, yaitu data penyewa, data skateboard, dan data transaksi.
 
 Data Penyewa, terdiri dari:
-
 Nomor Identitas (KTP/KTM)
 Nama penyewa
 Nomor HP
 
-Data Skateboard, terdiri dari:
-
+Data Skateboard, terdiri dari
 ID Skateboard
 Merk skateboard, contohnya Element
 Jenis skateboard, contohnya Street
 
 Data Transaksi, terdiri dari:
-
 ID Transaksi
 Lama penyewaan dalam hari
 Harga sewa per hari
@@ -56,10 +53,9 @@ Pada menu Tampilkan Data Rental, program akan menampilkan seluruh transaksi yang
 Informasi yang ditampilkan meliputi ID transaksi, nama dan kontak penyewa, informasi skateboard, serta lama penyewaan. Program juga menghitung jumlah biaya yang harus dibayar berdasarkan lama sewa dan harga sewa per hari.
 
 Rumus Total Bayar:
-
 Total Bayar = Lama Sewa × Harga Sewa per Hari
-
 Dengan adanya perhitungan tersebut, pengguna tidak perlu menghitung total biaya secara manual.
+
 
 ### 3. Update Lama Sewa (Update)
 <img width="465" height="136" alt="{201ADEEF-3AA7-4502-85C4-182FE8CA753E}" src="https://github.com/user-attachments/assets/16d677fa-0ed8-42a2-98f3-44bd75e87c97" />
@@ -67,9 +63,7 @@ Dengan adanya perhitungan tersebut, pengguna tidak perlu menghitung total biaya 
 <img width="311" height="161" alt="{57EDE890-B00D-45E2-B61D-8779D4F7A8C0}" src="https://github.com/user-attachments/assets/af9364c7-4b0b-4dc3-aaff-f17cb72dc732" />
 
 Menu Update Lama Sewa digunakan untuk mengubah durasi penyewaan yang sudah tersimpan. Pengguna cukup memasukkan ID transaksi, misalnya TRX-01. Program kemudian akan mencari transaksi tersebut di dalam ArrayList.
-
 Jika ID transaksi ditemukan, pengguna dapat memasukkan lama sewa yang baru. Nilai lama sewa pada objek transaksi kemudian diperbarui menggunakan method setter.
-
 Setelah perubahan dilakukan, total biaya juga akan mengikuti lama sewa yang baru. Data yang sudah diperbarui dapat dilihat kembali melalui menu Tampilkan Data Rental.
 
 
@@ -79,7 +73,6 @@ Setelah perubahan dilakukan, total biaya juga akan mengikuti lama sewa yang baru
 <img width="310" height="63" alt="{5843731E-AE80-468C-A128-9270FE3E314D}" src="https://github.com/user-attachments/assets/ef73f73c-2bd0-4620-aa76-9bab04ac220d" />
 
 Menu Hapus Data Rental digunakan untuk menghapus transaksi yang sudah tidak diperlukan. Pengguna memasukkan ID transaksi yang ingin dihapus, kemudian program akan mencari data tersebut di dalam ArrayList.
-
 Jika data ditemukan, transaksi akan dihapus dari daftar. Fitur ini dapat digunakan ketika masa penyewaan sudah selesai dan skateboard telah dikembalikan. Selain itu, fitur ini juga dapat digunakan untuk menghapus data yang sebelumnya salah dimasukkan.
 
 
@@ -87,5 +80,4 @@ Jika data ditemukan, transaksi akan dihapus dari daftar. Fitur ini dapat digunak
 <img width="678" height="189" alt="image" src="https://github.com/user-attachments/assets/90164173-e283-47c7-977e-2840bdad4ae3" />
 
 Menu Keluar digunakan untuk menghentikan program. Ketika pengguna memilih angka 5, perulangan while pada menu utama akan berhenti sehingga program tidak lagi meminta input dari pengguna.
-
 Setelah itu, program menampilkan pesan bahwa aplikasi telah selesai dijalankan. Jika program dijalankan melalui IDE seperti NetBeans, proses tersebut dapat dilihat dari status BUILD SUCCESS pada console yang menunjukkan bahwa program berhasil dijalankan tanpa mengalami error.
