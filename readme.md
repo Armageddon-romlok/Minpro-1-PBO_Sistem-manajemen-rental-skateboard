@@ -40,8 +40,16 @@ Informasi yang ditampilkan meliputi ID Transaksi, identitas kontak penyewa, spes
 
 ### 3. Update Lama Sewa (Update)
 <img width="465" height="136" alt="{201ADEEF-3AA7-4502-85C4-182FE8CA753E}" src="https://github.com/user-attachments/assets/16d677fa-0ed8-42a2-98f3-44bd75e87c97" />
+
 <img width="311" height="161" alt="{57EDE890-B00D-45E2-B61D-8779D4F7A8C0}" src="https://github.com/user-attachments/assets/af9364c7-4b0b-4dc3-aaff-f17cb72dc732" />
 
 Menu opsi 3 berfungsi untuk memodifikasi data transaksi yang sudah berjalan. Pengguna hanya perlu memasukkan ID Transaksi (contoh: TRX-01) sebagai kata kunci pencarian. Jika ID tersebut ditemukan di dalam `ArrayList`, sistem akan meminta input durasi lama sewa yang baru. 
 
 Setelah diinput, program akan memperbarui nilai atribut pada objek terkait menggunakan *method setter*. Perubahan durasi ini akan secara otomatis memengaruhi kalkulasi Total Bayar saat transaksi dilihat kembali melalui menu Read.
+
+### 4. Hapus Data Rental (Delete)
+<img width="450" height="129" alt="image" src="https://github.com/user-attachments/assets/26552343-fecd-4308-b3de-d47eb716d86b" />
+
+<img width="310" height="63" alt="{5843731E-AE80-468C-A128-9270FE3E314D}" src="https://github.com/user-attachments/assets/ef73f73c-2bd0-4620-aa76-9bab04ac220d" />
+
+Menu opsi 4 digunakan untuk menghapus catatan transaksi dari sistem. Sama seperti fitur update, program akan meminta input ID Transaksi (misal: TRX-01). Sistem kemudian akan mencari indeks data tersebut di dalam `ArrayList` dan menghapusnya secara permanen dari memori. Fitur ini dieksekusi apabila masa sewa telah selesai dan unit dikembalikan, atau jika terjadi kesalahan saat penginputan awal.
