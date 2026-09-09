@@ -4,6 +4,7 @@ Sistem Manajemen Rental Skateboard adalah aplikasi berbasis *Command Line Interf
 
 
 <img width="411" height="164" alt="{79F44CDA-AA00-4D5C-91B7-30E7C62A4EE9}" src="https://github.com/user-attachments/assets/72e379c0-cc82-4f6a-96bd-72f35ecb9cc0" />
+
 ### Antarmuka Menu Utama
 ![Tampilan Menu Utama](image_ab12c2.png)
 
