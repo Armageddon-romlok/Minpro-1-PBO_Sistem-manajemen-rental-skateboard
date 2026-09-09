@@ -1,11 +1,8 @@
 ## Deskripsi Singkat Program
-Sistem Manajemen Rental Skateboard adalah aplikasi berbasis *Command Line Interface* (CLI) yang dibangun menggunakan bahasa pemrograman Java. Program ini dirancang untuk mempermudah pencatatan dan pengelolaan data transaksi penyewaan Skateboard. Sistem ini mengimplementasikan konsep *Object-Oriented Programming* (OOP) dengan memisahkan entitas ke dalam class `Skateboard`, `Penyewa`, dan `TransaksiRental`. Seluruh rekaman data disimpan secara dinamis di dalam memori menggunakan struktur data `ArrayList`, dan telah mendukung fungsionalitas CRUD (Create, Read, Update, Delete).
-
+Sistem Manajemen Rental Skateboard merupakan program berbasis Command Line Interface (CLI) yang dibuat menggunakan bahasa pemrograman Java. Program ini digunakan untuk mencatat dan mengelola data penyewaan skateboard, mulai dari data penyewa, skateboard yang disewa, hingga lama waktu penyewaan.
 
 ### Antarmuka Menu Utama
 <img width="405" height="160" alt="{6A228598-8E6B-418E-B2DD-E0E192164BDF}" src="https://github.com/user-attachments/assets/8a1cb9f3-8608-4531-a6bf-ebaf67d246b0" />
-
-
 
 
 Gambar di atas merupakan tampilan awal *Command Line Interface* (CLI) saat program dijalankan. Sistem menggunakan perulangan `while` sehingga menu akan terus merespons input angka (1-5) dari pengguna melalui percabangan `switch-case`. 
