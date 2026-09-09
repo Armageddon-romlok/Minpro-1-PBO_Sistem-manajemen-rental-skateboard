@@ -3,7 +3,8 @@ Sistem Manajemen Rental Skateboard adalah aplikasi berbasis *Command Line Interf
 
 
 ### Antarmuka Menu Utama
-<img width="411" height="164" alt="{79F44CDA-AA00-4D5C-91B7-30E7C62A4EE9}" src="https://github.com/user-attachments/assets/72e379c0-cc82-4f6a-96bd-72f35ecb9cc0" />
+<img width="498" height="281" alt="image" src="https://github.com/user-attachments/assets/be0c851c-71e9-4cd7-ae0e-8d0cc1906fe0" />
+
 
 Gambar di atas merupakan tampilan awal *Command Line Interface* (CLI) saat program dijalankan. Sistem menggunakan perulangan `while` sehingga menu akan terus merespons input angka (1-5) dari pengguna melalui percabangan `switch-case`. 
 
