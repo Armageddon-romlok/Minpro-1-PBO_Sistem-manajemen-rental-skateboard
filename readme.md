@@ -3,7 +3,8 @@ Sistem Manajemen Rental Skateboard adalah aplikasi berbasis *Command Line Interf
 
 
 ### Antarmuka Menu Utama
-<img width="498" height="281" alt="image" src="https://github.com/user-attachments/assets/be0c851c-71e9-4cd7-ae0e-8d0cc1906fe0" />
+<img width="411" height="168" alt="{5689919A-66F5-44A5-B922-50F40D922C8C}" src="https://github.com/user-attachments/assets/b023b8f2-fe07-49c3-8b79-693543e2ff24" />
+
 
 
 Gambar di atas merupakan tampilan awal *Command Line Interface* (CLI) saat program dijalankan. Sistem menggunakan perulangan `while` sehingga menu akan terus merespons input angka (1-5) dari pengguna melalui percabangan `switch-case`. 
@@ -17,7 +18,8 @@ Berikut adalah penjelasan fungsionalitas masing-masing opsi menu:
 
 
 ### 1. Tambah Data Rental (Create)
-<img width="522" height="285" alt="image" src="https://github.com/user-attachments/assets/596421a4-a285-44f2-a657-ee78644bed23" />
+<img width="498" height="281" alt="image" src="https://github.com/user-attachments/assets/577277f7-068f-4c7a-a52b-c4752ce5c78c" />
+
 
 
 Ketika opsi 1 dipilih, sistem akan memandu pengguna untuk menginputkan detail transaksi secara berurutan melalui *console*. Proses ini mencakup pengisian tiga kelompok data utama:
@@ -27,7 +29,8 @@ Ketika opsi 1 dipilih, sistem akan memandu pengguna untuk menginputkan detail tr
 
 
 ### 2. Tampilkan Data Rental (Read)
-<img width="392" height="186" alt="{549CC3FB-5EEE-4D0C-A6D0-26337A933E46}" src="https://github.com/user-attachments/assets/39eedf64-f838-4346-9491-290d6ee9621b" />
+<img width="363" height="193" alt="{CC03B01A-D792-4616-BA39-B4D928E79CA3}" src="https://github.com/user-attachments/assets/bf643a16-fa52-43aa-bb98-611e7f5a0ef4" />
+
 
 
 Saat opsi 2 dipilih, sistem akan menampilkan seluruh daftar transaksi yang saat ini tersimpan di dalam memori (`ArrayList`). Program menggunakan perulangan *for-each* untuk mengekstrak dan mencetak rangkuman data ke layar. 
