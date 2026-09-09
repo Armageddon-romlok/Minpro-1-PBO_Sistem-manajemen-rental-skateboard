@@ -10,15 +10,19 @@ Gambar di atas menunjukkan tampilan awal program ketika dijalankan melalui Comma
 
 Berikut merupakan fungsi dari setiap menu:
 
-Tambah Data Rental (Create)
+-Tambah Data Rental (Create)
 Digunakan untuk memasukkan data transaksi penyewaan baru ke dalam sistem.
-Tampilkan Data Rental (Read)
+
+-Tampilkan Data Rental (Read)
 Digunakan untuk melihat seluruh data rental yang sudah tersimpan, termasuk total biaya penyewaan.
-Update Lama Sewa (Update)
+
+-Update Lama Sewa (Update)
 Digunakan untuk mengubah lama waktu penyewaan berdasarkan ID transaksi. Total biaya akan menyesuaikan dengan lama sewa yang baru.
-Hapus Data Rental (Delete)
+
+-Hapus Data Rental (Delete)
 Digunakan untuk menghapus data transaksi berdasarkan ID transaksi, misalnya ketika skateboard sudah dikembalikan atau terdapat kesalahan pada data.
-Keluar
+
+-Keluar
 Digunakan untuk menghentikan program dan keluar dari menu utama.
 
 
